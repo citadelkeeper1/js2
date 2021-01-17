@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS2DZ4</title>
+    <style type="text/css">
+        input:focus{
+            outline: none;
+        }
+        .right {
+            border: 1px solid #00ff00;
+        }
+        .wrong {
+            border: 1px solid #FF0000;
+        }
+        input {
+            border: 1px solid #D4E2F7;
+            margin: 3px 0px 3px 15px;
+        }
+    </style>
+</head>
+<body>              
+    <form name="form" action="6.php" method="POST">
+        Имя:<input type="text" name="name" class="to_check" /><br>
+        Телефон:<input type="text" name="phone" class="to_check" /><br>
+        E-mail:<input type="text" name="email" class="to_check" /><br>
+        Текст:<input type="text" name="text" class="to_check" /><br>
+        <input type="submit" value="Отправить" />
+    </form>
+    <div class="info"></div>
+    <script src="js/main3.js"></script>
+</body>
+</html>
+
