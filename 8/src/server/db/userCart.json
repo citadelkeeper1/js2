@@ -1,0 +1,20 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "id_product": 123,
+            "product_name": "Ноутбук",
+            "price": 45600,
+            "quantity": 10,
+            "img": "img/hazardous_teen_178x200.jpg"
+        },
+        {
+            "quantity": 35,
+            "id_product": 457,
+            "product_name": "Gamepad",
+            "price": 3000,
+            "img": "img/hazardous_teen_178x200.jpg"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id_product": 1001,
+    "product_name": "Клавиатура MSI VIGOR",
+	"category_id": 10,
+    "product_img": "img/products/MSI_VIGOR_GK80_RU.jpg",
+    "price": 1600
+  },
+  {
+    "id_product": 1002,
+    "product_name": "Геймпад Logitech F710",
+	"category_id": 10,
+    "product_img": "img/products/Logitech_Wireless_Gamepad_F710.jpg",
+    "price": 140
+  },
+  {
+    "id_product": 1003,
+    "product_name": "Монитор Dell P2720D",
+	"category_id": 20,
+    "product_img": "img/products/Dell_P2720D.jpg",
+    "price": 5600
+  },
+    {
+    "id_product": 1004,
+    "product_name": "Ноутбук ASUS DM1194",
+	"category_id": 30,
+    "product_img": "img/products/ASUS_VivoBook_A543MA-DM1194.jpg",
+    "price": 2400
+  },
+    {
+    "id_product": 1005,
+    "product_name": "Ноутбук Dell XPS 13",
+	"category_id": 30,
+    "product_img": "img/products/Dell_XPS_13.jpg",
+    "price": 11000
+  },
+  {
+    "id_product": 1006,
+    "product_name": "Мышка GIGABYTE M5",
+	"category_id": 10,
+    "product_img": "img/products/GIGABYTE_BLACK_AORUS_M5.jpg",
+    "price": 160
+  },
+  {
+    "id_product": 1007,
+    "product_name": "Принтер HP LJ M806dn",
+	"category_id": 40,
+    "product_img": "img/products/HP_LaserJet_Enterprise_M806dn.jpg",
+    "price": 2500
+  }
+]
