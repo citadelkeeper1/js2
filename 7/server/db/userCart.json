@@ -1,0 +1,30 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 1002,
+            "product_name": "Геймпад Logitech F710",
+            "category_id": 10,
+            "product_img": "img/products/Logitech_Wireless_Gamepad_F710.jpg",
+            "price": 140
+        },
+        {
+            "quantity": 1,
+            "id_product": 1004,
+            "product_name": "Ноутбук ASUS DM1194",
+            "category_id": 30,
+            "product_img": "img/products/ASUS_VivoBook_A543MA-DM1194.jpg",
+            "price": 2400
+        },
+        {
+            "quantity": 2,
+            "id_product": 1006,
+            "product_name": "Мышка GIGABYTE M5",
+            "category_id": 10,
+            "product_img": "img/products/GIGABYTE_BLACK_AORUS_M5.jpg",
+            "price": 160
+        }
+    ]
+}

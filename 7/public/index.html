@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Project less</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/raleway-regular.css">
+    <link rel="stylesheet" href="css/montserrat.css">
+    <link rel="stylesheet" href="css/montserrat-light.css"> </head>
+
+<body>
+    <div class="container" id="app">
+        <header class="slider-header">
+            <a class="logo-txt" href="index.html">
+                <img src="img/logo2.png" class="logo-img" width="64" height="56">
+                <span class="logo-quayle">Quayle</span>
+            </a>
+            <nav class="main-nav">
+                <label for="main-nav__menu"> <span class="menu__closed" style=""></span> <span class="menu__closed" style=""></span> <span class="menu__closed" style=""></span> </label>
+                <input id="main-nav__menu" type="checkbox">
+                <ul class="main-nav__menu">
+                    <li class="main-nav__li"><a href="#"><span>Главная</span></a></li>
+                    <li class="main-nav__li"><a href="#"><span>Каталог</span></a></li>
+                    <li class="main-nav__li"><a href="#"><span>Контакты</span></a></li>    
+	                <li class="main-nav__li"> <cart ref="cart"></cart></li>
+					<li class="main-nav__li"><filter-el></filter-el></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="latest-proj">
+                <h2>Каталог.</h2>
+                <categories ref="categories"></categories>
+				<products ref="products"></products>
+            </section>
+        </main>
+        <footer>
+            <section class="footer-main">
+                <div class="footer-main-about">
+                    <h4>                     <a  href="index.html"><svg  class="footer-logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56">
+<path d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.642 L46.303,43.642 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.201 L43.676,22.201 L38.422,31.389 L33.168,22.201 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.007 L37.108,9.184 L26.600,9.184 L31.854,-0.007 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.642 L12.151,34.451 L17.404,43.642 L6.897,43.642 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.201 L25.286,31.389 L20.032,22.201 L30.540,22.201 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z"/>
+</svg><span>Waxom</span></a></h4>
+                    <p> Lorem ipsum dolor sit amet, consec&shy;tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem. </p> <a class="about-btn" href="#">Read More</a> </div>
+                <div class="footer-main-posts">
+                    <h4>Recent Posts</h4>
+                    <p>
+                        <time datetime="2015-09-08">September 08, 2015</time> Lorem ipsum dolor sit amet, consec&shy;tetuer adipiscing elit </p>
+                    <hr>
+                    <p>
+                        <time datetime="2015-09-08">September 08, 2015</time> Diam nonummy nibh euismod tincid&shy;unt ut laoreet dolore magna </p>
+                    <hr>
+                    <p>
+                        <time datetime="2015-09-08">September 08, 2015</time> Claritas est etiam processus dynamic&shy;us, qui sequitur mutationem per seac&shy;ula quarta decima </p>
+                </div>
+                <div class="footer-main-twitt">
+                    <h4>Our Twitter</h4>
+                    <p><a class="footer-twitt-url" href="#">@waxom </a>Cum soluta nobis eleifend option congue nihil imperdiet doming
+                        <time datetime="3M">3 mins ago</time>
+                    </p>
+                    <hr>
+                    <p>Mirum est <a class="footer-twitt-url" href="#">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum
+                        <time datetime="5H">5 hours ago</time>
+                    </p>
+                    <hr>
+                    <p>Soluta nobis option<a class="footer-twitt-link" href="#"> bit.ly/1Hniso7</a>
+                        <time datetime="P20D">20 days ago</time>
+                    </p>
+                </div>
+                <div class="footer-main-widget">
+                    <h4>Dribbble Widget</h4>
+                    <a href="#">
+                    <img src="img/footer-photo1.jpg" alt="Photo Widget" height="98" width="130">
+                    </a>
+                    <a href="#">
+                    <img src="img/footer-photo2.jpg" alt="Photo Widget" height="98" width="130">
+                    </a>
+                    <a href="#">
+                    <img src="img/footer-photo3.jpg" alt="Photo Widget" height="98" width="130">
+                    </a>
+                    <a href="#">
+                    <img src="img/footer-photo4.jpg" alt="Photo Widget" height="98" width="130">
+                    </a>
+                </div>
+            </section>
+            <section class="footer-small">
+                <p class="footer-small-left">Copyright&copy; 2015&nbsp;
+                    <a class="footer-nav-url" href="index.html"> <span>Waxom</span></a>
+                </p>
+                <nav class="footer-nav"> <a href="#">Privacy&nbsp;Policy</a> <a class="footer-nav-slim" href="#">FAQ</a> <a class="footer-nav-slim" href="#">Support</a> </nav>
+                <p class="footer-small-right">Designed by <a class="footer-nav-url" href="#"><span>ThemeFire</span></a></p>
+                <p class="footer-small-end">Only on <a class="footer-nav-url" href="#"><span>Envato Market</span></a></p>
+            </section>
+        </footer>
+    </div>
+	    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/ProducComp.js"></script>
+    <script src="js/CategoriesComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
